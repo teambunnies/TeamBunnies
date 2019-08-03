@@ -1,19 +1,23 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Nav from "./components/Nav";
-import Parallax from "./components/Parallax";
-
+import Main from "./pages/Main";
+import Landing from "./pages/Landing";
+import Resources from "./pages/Resources";
 
 
 function App() {
   return (
-    <div>
-      <Nav />
-      <Parallax />
-
-    </div>
-  )
+    <Router>
+      <div>
+        <Nav />
+        <Route exact path="/" component={Main} />
+        <Route exact path="/landing" component={Landing} />
+        <Route exact path="/resources" component={Resources} />
+      
+      </div>
+    </Router>
+  );
 }
 
 export default App;

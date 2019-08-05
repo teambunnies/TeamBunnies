@@ -7,7 +7,7 @@ function Parallax() {
             <div class="img1">
                 <div class="ptext">
                     <span class="border">
-                        Odyssey Chicago
+                        Discover Chicago
                 </span>
                 </div>
             </div>
@@ -23,7 +23,7 @@ function Parallax() {
                     </span>
                 </div>
             </div>
-            <section class="section section-dark">
+            <section class="section section-light">
                 <h2> Our Services </h2>
                 <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores odit incidunt minima recusandae beatae
                     iure reprehenderit dolores, voluptas itaque nemo, facilis excepturi dicta vitae dolorem, ipsam reiciendis

@@ -2,13 +2,14 @@ import React from "react";
 import "./style.css";
 
 function Nav() {
-    return (
-      <nav className="navbar navbar-dark bg-dark">
-        <a className="navbar-brand" href="/">
-          Odyssey Chicago 
+  return (
+    <nav className="navbar navbar-dark bg-dark">
+      <a className="navbar-brand" href="/">
+        ODYSSEY
         </a>
-      </nav>
-    );
-  }
-  
-  export default Nav;
+    </nav>
+  );
+}
+
+
+export default Nav;

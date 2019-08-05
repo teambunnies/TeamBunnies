@@ -14,8 +14,7 @@ module.exports = {
     User
       .findAll({
         where: {
-          email: req.body.email,
-        password: req.body.password,
+          userId: req.params.id
         }
       })
       .then(dbModel => res.json(dbModel))
@@ -34,8 +33,13 @@ module.exports = {
       .catch(err => res.status(422).json(err));
   },
   update: function(req, res) {
-    db.Book
-      .findOneAndUpdate({ userId: req.params.id }, req.body)
+    User.
+    update(req.body,
+   {
+    where: {
+      userId: req.params.id
+    }
+  })
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   },

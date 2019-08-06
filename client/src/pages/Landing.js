@@ -1,8 +1,7 @@
 import React from "react";
-import Nav from "../components/Nav";
-import Parallax from "../components/Parallax"
 import "../components/BackgroundColor/style.css";
-import NavButtons from "../components/NavButtons"
+import LandingNav from "../components/LandingNav";
+
 
 
 
@@ -11,7 +10,7 @@ function Landing() {
   return (
     <div>
  
- {/* <NavButtons /> */}
+ { <LandingNav /> }
 
     </div>
   )

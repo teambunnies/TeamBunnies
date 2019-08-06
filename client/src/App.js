@@ -5,18 +5,19 @@ import Main from "./pages/Main";
 import Landing from "./pages/Landing";
 import Resources from "./pages/Resources";
 import FoodExperiences from "./pages/FoodExperiences"
+import PhotoGallery from "./pages/PhotoGallery";
 
 
 function App() {
   return (
     <Router>
       <div>
-        <Nav />
+     
         <Route exact path="/" component={Main} />
         <Route exact path="/landing" component={Landing} />
         <Route exact path="/resources" component={Resources} />
         <Route exact path="/foodexp" component={FoodExperiences} />
-      
+        <Route exact path="/gallery" component={PhotoGallery} />
       </div>
     </Router>
   );

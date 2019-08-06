@@ -1,0 +1,26 @@
+.navbar-light {
+    background-color:white;
+    height: 100px;
+  
+  }
+
+  #food {
+margin-right: 100px;
+
+  }
+ .blue {
+  background-color:blue;
+  height: 100px;
+ }
+
+ .background {
+  background-image: url("/assets/images/flag.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ height: 1000px;
+ }
+
+ .btn-outline-dark {
+   background-color: rgb(112, 145, 189);
+ }

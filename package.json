@@ -33,7 +33,12 @@
     "mysql2": "^1.6.5",
     "react-bootstrap": "^1.0.0-beta.10",
     "sequelize": "^4.44.0",
-    "uuid": "^3.3.2"
+    "uuid": "^3.3.2",
+    "axios": "^0.18.0",
+    "express-session": "^1.16.2",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "bcrypt": "^3.0.6"
   },
   "repository": {
     "type": "git",

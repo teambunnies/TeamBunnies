@@ -1,7 +1,8 @@
 .navbar-light {
     background-color:white;
     height: 100px;
-  
+ 
+    
   }
 
   #food {
@@ -11,6 +12,7 @@ margin-right: 100px;
  .blue {
   background-color:blue;
   height: 100px;
+  
  }
 
  .background {
@@ -19,6 +21,7 @@ margin-right: 100px;
   background-size: cover;
   background-repeat: no-repeat;
  height: 1000px;
+ filter: blur(3px);
  }
 
  .btn-outline-dark {

@@ -22,8 +22,32 @@ p {
     letter-spacing: .5px;
 }
 
-.h4, h4, .h3, h3 {
+.h4, h4, .h3, h3, .h5, h5 {
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 900;
 
 }
+.pizza, .hotdogs, .pierogis, .italianbeef, .tamales, 
+.burgers, .tacos, .churros, .gelato {
+    padding-bottom: 50px;
+}
+
+.giordanos, .brokenenglish {
+    padding-bottom: 140px;
+}
+
+.devildawgs, .elmilagro {
+    padding-bottom: 200px;
+}
+
+.pierogiheaven {
+    padding-bottom: 100px;
+}
+
+.alsbeef, .xoco {
+    padding-bottom: 120px;
+}
+.aucheval {
+    padding-bottom: 85px;
+}
+

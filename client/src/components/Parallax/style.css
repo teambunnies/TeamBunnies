@@ -66,6 +66,11 @@ body,html {
     font-family: 'Poiret One', cursive;
     background: white;
     opacity: .6;
+  }
+  .btn-outline-dark {
     
+  align-items: center;
+  justify-content: center;
+  position: absolute;
   }
   

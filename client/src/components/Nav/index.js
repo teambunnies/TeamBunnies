@@ -7,6 +7,7 @@ function Nav() {
       <a className="navbar-brand" href="/">
         ODYSSEY
         </a>
+        
     </nav>
   );
 }

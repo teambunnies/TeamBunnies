@@ -7,8 +7,9 @@ function Parallax() {
             <div class="img1">
                 <div class="ptext">
                     <span class="border">
-                        Discover Chicago
+                        Discover Chicago 
                 </span>
+                <button type="button" class="btn btn-outline-dark"> Login | Create Account</button>
                 </div>
             </div>
             <section class="section section-light">

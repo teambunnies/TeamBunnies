@@ -1,21 +1,23 @@
 require('dotenv').config();
 const express = require("express");
-var session = require("express-session");
 const routes = require("./routes");
 const app = express();
 var logger = require("morgan");
-var mongoose = require("mongoose");
-var db = require("./models/index");
-const passport = require("./controllers/passportController.js");
-const PORT = process.env.PORT || 3001;
 
+
+
+const PORT = process.env.PORT || 3001;
+const connectDB = require('./config/db')
+
+
+connectDB()
 // Define middleware here
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
+// app.use(express.urlencoded({ extended: false }));
+app.use(express.json({ extended: false }));
 // Serve up static assets (usually on heroku)
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
-}
+// if (process.env.NODE_ENV === "production") {
+//   app.use(express.static("client/build"));
+// }
 
 //logger
 app.use(logger("dev"));
@@ -25,14 +27,14 @@ app.use(logger("dev"));
 
 // Send every other request to the React app
 // Define any API routes before this runs
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
-}
+// if (process.env.NODE_ENV === "production") {
+//   app.use(express.static("client/build"));
+// }
 
 //enable Pasport
-app.use(session({ secret: "8E3JnZlm51v7ELzUC6N0l6bGPFtuJyG", resave: true, saveUninitialized: true }));
-app.use(passport.initialize());
-app.use(passport.session());
+// app.use(session({ secret: "8E3JnZlm51v7ELzUC6N0l6bGPFtuJyG", resave: true, saveUninitialized: true }));
+// app.use(passport.initialize());
+// app.use(passport.session());
 
 // Define API routes here
 app.use(routes);

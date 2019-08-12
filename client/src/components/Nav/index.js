@@ -8,7 +8,8 @@ import "./style.css";
 const Nav = ({ auth: { isAuthenticated, loading}, logout}) => {
   const authLinks = (
     <ul>
-      <li><Link className="" to="/register">Register</Link></li>
+      <p>HELLO, Italian Beef Buckingham</p>
+      <li><Link className="" to="/register">Resources</Link></li>
       <li>
         <a onClick={logout} href="#!">
           <i className="fas fa-sign-out-alt"></i>{' '}

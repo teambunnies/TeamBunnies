@@ -30,6 +30,6 @@ User.prototype.validPassword = function(password) {
 User.hook("beforeCreate", function(user) {
     user.password = bcrypt.hashSync(user.password, bcrypt.genSaltSync(10), null);
   });
-  retur
+  return
 User.sync()
 module.exports = User

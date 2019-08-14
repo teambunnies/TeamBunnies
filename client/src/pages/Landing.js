@@ -7,12 +7,14 @@ import ChicagoBanner from "../components/ChicagoBanner";
 
 
 
+
 function Landing() {
   return (
     <div>
  
  { <LandingNav /> }
  {<ChicagoBanner />}
+ 
 
     </div>
   )

@@ -6,6 +6,8 @@ import Login from "./components/auth/Login";
 import Parallax from "./components/Parallax";
 import Register from "./components/auth/Register";
 import Alert from "./components/layouts/Alert";
+import Dashboard from "./components/dashboard/Dashboard";
+import PrivateRoute from "./components/routing/PrivateRoute";
 
 
 
@@ -37,6 +39,7 @@ const App = () => {
             <Switch>
               <Route exact path='/register' component={Register} />
               <Route exact path='/login' component={Login} />
+              <PrivateRoute exact path='/dashboard' component={Dashboard} />
             </Switch>
           </section>
         </Fragment>

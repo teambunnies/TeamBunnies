@@ -1,12 +1,13 @@
 const mongoose = require('mongoose')
 
 const ChicagoNameSchema = new mongoose.Schema({
-    firstname: {
+    
+    firstnames: {
         type: [String]
         
     },
-    lastname: {
-        type: [String],
+    lastnames: {
+        type: [String]
         
     }
 

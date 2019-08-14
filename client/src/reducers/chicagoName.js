@@ -1,16 +1,29 @@
-// import { CHICAGO_NAME } from "../actions/types";
+import { CHICAGO_NAME, CHICAGO_NAME_ERROR } from "../actions/types";
 
-// const initialState = [];
 
-// export default function(state = initialState, action) {
-//     const {type, payload } = action
+const initialState = {
+  chicagoname: null,
+  chicagonames: [],
+  loading: true,
+  error: {}
+};
 
-//   switch (type) {
-//     case SET_ALERT:
-//       return [...state, payload];
-//     case REMOVE_ALERT:
-//         return state.filter(alert => alert.id !== payload)
-//     default:
-//         return state
-//   }
-// }
+export default function(state = initialState, action) {
+    const {type, payload } = action
+
+  switch (type) {
+    case CHICAGO_NAME:
+      return {...state, 
+        chicagoname: payload,
+        loading: false
+      };
+      case CHICAGO_NAME_ERROR:
+        return {
+          ...state,
+          error: payload,
+          loading: false
+        }
+    default:
+        return state
+  }
+}

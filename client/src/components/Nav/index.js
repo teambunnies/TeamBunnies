@@ -2,13 +2,15 @@ import React, { Fragment }from 'react';
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
+
 import { logout } from '../../actions/auth'
 import "./style.css";
 
-const Nav = ({ auth: { isAuthenticated, loading}, logout}) => {
+const Nav = ({  auth: { isAuthenticated, loading}, logout}) => {
+ 
   const authLinks = (
     <ul>
-      <p>HELLO, Italian Beef Buckingham</p>
+      <p>HELLO,  </p>
       <li><Link className="" to="/register">Resources</Link></li>
       <li>
         <a onClick={logout} href="#!">
@@ -41,10 +43,12 @@ const Nav = ({ auth: { isAuthenticated, loading}, logout}) => {
 Nav.propTypes = {
   logout: PropTypes.func.isRequired,
   auth: PropTypes.object.isRequired,
+ 
 }
 
 const mapStatetoProps = state => ({
-  auth: state.auth
+  auth: state.auth,
+  
 })
 
-export default connect(mapStatetoProps, { logout })(Nav)
+export default connect(mapStatetoProps, {  logout })(Nav)

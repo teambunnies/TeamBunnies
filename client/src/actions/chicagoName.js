@@ -1,31 +1,30 @@
-import { CHICAGO_NAME } from "./types";
+import { CHICAGO_NAME, CHICAGO_NAME_ERROR } from "./types";
+import axios from "axios";
 
 
 //dispatch can be used because of thunk middleware
-export const chicagoName = () => async dispatch => {
-    const config = {
-      headers: {
-        "Content-Type": "application/json"
-      }
-    };
+export const getChicagoName = () => async dispatch => {
     
   
     try {
-      const res = await axios.post("/api/auth", body, config);
+      const res = await axios.get("/api/chicagoname");
+
+      const firstname = res.data[0].firstnames[Math.floor(Math.random() * res.data[0].firstnames.length)];
+      const lastname = res.data[0].lastnames[Math.floor(Math.random() * res.data[0].lastnames.length)];
   
       dispatch({
-        type: LOGIN_SUCCESS,
-        payload: res.data
+        type: CHICAGO_NAME,
+        payload: { firstname: firstname, lastname: lastname}
       });
-      dispatch(loadUser())
+    
     } catch (err) {
-      const errors = err.response.data.errors;
-  
-      if (errors) {
-        errors.forEach(error => dispatch(setAlert(error.msg, "danger")));
-      }
+      console.error(err)
       dispatch({
-        type: LOGIN_FAIL
-      });
+        type: CHICAGO_NAME_ERROR,
+        payload: { msg: err.response.statusText, status: err.response.status}
+      })
     }
   };
+ 
+
+

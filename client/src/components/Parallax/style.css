@@ -13,7 +13,6 @@ body,html {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
   }
   
   .img1 {
@@ -66,11 +65,31 @@ body,html {
     font-family: 'Poiret One', cursive;
     background: white;
     opacity: .6;
+    animation-duration: 2s;
+    animation-name: bounceIn;
+    
   }
   .btn-outline-dark {
-    
-  align-items: center;
-  justify-content: center;
-  position: absolute;
+    margin-top: 50px;
+    opacity: .7;
+    font-family: 'Poiret One', cursive;
+    font: black; 
+    font-weight: 900;
+    position: absolute;
+
   }
+  @keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
   

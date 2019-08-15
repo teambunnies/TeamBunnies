@@ -18,6 +18,10 @@ import { Provider } from "react-redux";
 import store from "./store";
 import { loadUser } from "./actions/auth";
 import setAuthToken from "./utils/setAuthToken";
+import Food from "./pages/Food";
+import Experiences from "./pages/Experiences";
+import ImageGallery from "./components/ImageGallery";
+
 
 import "./App.css";
 
@@ -32,27 +36,26 @@ const App = () => {
 
   return (
     <Provider store={store}>
-    <Router>
-      <Fragment>
-        <Nav />
-        <Route exact path='/' component={Parallax} />
-        <section className='container'>
-          <Alert />
-          <Switch>
-            <Route exact path='/register' component={Register} />
-            <Route exact path='/login' component={Login} />
-           
-            <Route exact path='/landing' component={Landing} />
-            <Route exact path='/resources' component={Resources} />
-            <Route exact path='/food' component={Food} />
-            <Route exact path='/gallery' component={ImageGallery} />
-            <PrivateRoute exact path='/dashboard' component={Dashboard} />
-          </Switch>
-        </section>
-      </Fragment>
-    </Router>
-  </Provider>
-  
+      <Router>
+        <Fragment>
+          <Nav />
+          <Route exact path='/' component={Parallax} />
+          <section className='container'>
+            <Alert />
+            <Switch>
+              <Route exact path='/register' component={Register} />
+              <Route exact path='/login' component={Login} />
+              <Route exact path='/landing' component={Landing} />
+              <Route exact path='/resources' component={Resources} />
+              <Route exact path='/food' component={Food} />
+              <Route exact path='/gallery' component={ImageGallery} />
+              <PrivateRoute exact path='/dashboard' component={Dashboard} />
+            </Switch>
+          </section>
+        </Fragment>
+      </Router>
+    </Provider>
+
   );
 };
 

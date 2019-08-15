@@ -13,20 +13,11 @@ html,body {
   -webkit-box-shadow: 0 8px 6px -6px #999;
   -moz-box-shadow: 0 8px 6px -6px #999;
   box-shadow: 0 8px 6px -6px #999;
-
 }
 
 #food {
   margin-right: 100px;
 }
-
- /* .background {
-  background-image: url("/assets/images/flag.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  filter: blur(3px);
-} */
 
 .jumbotron {
   background-image: url("/assets/images/landingchicago.jpg");

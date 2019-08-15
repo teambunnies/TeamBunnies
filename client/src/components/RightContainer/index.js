@@ -5,17 +5,18 @@ import "./food.css";
 function RightContainer() {
     return (
         <>
+        <section class="container">
                 <div class="rightContainer">
-                    <h3> Where You Can Find it: </h3> <hr></hr><br></br>
+                    <h3> Where You Can Find it: </h3> <hr/><br/>
                     <section class="giordanos">
                         <h4> Giordano's</h4>
-                        <p><br></br>With locations all around Chicago, you can easily stop by and try your first deep dish pizza.
+                        <p><br/>With locations all around Chicago, you can easily stop by and try your first deep dish pizza.
                         They offer a small, medium and large size pizza to choose from.</p>
                         <h5> Average Price of a Deep Dish Pizza: </h5>
                         <p> Small- $18.65</p>
                         <p> Medium- $23.30</p>
                         <p> Large- $27.65</p>
-                        <a href="https://giordanos.com/">Visit their website</a> <br></br>
+                        <a href="https://giordanos.com/">Visit their website</a> <br/>
                         <a href="https://giordanos.com/locations/">Locations</a>
                     </section>
                     <section class="devildawgs">
@@ -105,8 +106,8 @@ function RightContainer() {
                         <a href="https://www.amorino.com/fr/index.html">Visit their website</a> <br></br>
                         <a href="https://www.amorino.com/fr/boutique/chicago-north-state.115.html">Locations</a>
                     </section>
-
                 </div>
+                </section>
 
         
 

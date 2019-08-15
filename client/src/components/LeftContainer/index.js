@@ -21,7 +21,7 @@ function LeftContainer() {
                         <p><br />The hot dog is topped with mustard, chopped white onions, bright green sweet pickle relish, a dill pickle spear, tomato slices or wedges, pickled sport peppers and a dash of celery salt. </p>
                     </section>
                     <section class="pierogis">
-                        <h4> 3. Pierogis</h4>
+                        <h4> 3. Pierogies</h4>
                         <img src="/assets/images/pierogi.jpg" height="300" width="400"></img>
                         <p><br />Pierogi are filled dumplings of Central and Eastern European origin, made by wrapping unleavened dough around a savory or sweet filling and cooking in boiling water, or pan-frying. </p>
                     </section>

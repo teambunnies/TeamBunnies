@@ -7,11 +7,11 @@ import RightContainer from "../components/RightContainer";
 
 function Food() {
     return (
-      <div>
+      <>
         <Nav />
         <LeftContainer />
         <RightContainer />
-      </div>
+      </>
     )
   }
   

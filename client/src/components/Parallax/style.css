@@ -67,8 +67,8 @@ body,html {
     opacity: .6;
     animation-duration: 2s;
     animation-name: bounceIn;
-    
   }
+
   .btn-outline-dark {
     margin-top: 50px;
     opacity: .7;

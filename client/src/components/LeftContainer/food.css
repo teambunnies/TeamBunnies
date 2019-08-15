@@ -1,25 +1,19 @@
-.container {
+/* .container {
     margin-top: 50px;
 }
 .leftContainer {
     position: absolute;
     left: 0px;
     width: 50%;
-    padding-left: 100px;
-    padding-right: 75px;
-    
-}
-.rightContainer {
-    position: absolute;
-    right: 0px;
-    width: 50%;
     padding-left: 50px;
-    padding-right: 100px;
+    padding-right: 75px;
+    font-display: block;   
 }
 
 p {
     font-family: 'Open Sans Condensed', sans-serif;
     letter-spacing: .5px;
+    
 }
 
 .h4, h4, .h3, h3, .h5, h5 {
@@ -50,4 +44,4 @@ p {
 .aucheval {
     padding-bottom: 85px;
 }
-
+ */

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "./components/Nav";
 import Landing from "./pages/Landing";
 import Resources from "./pages/Resources";
-import ImageGallery from "./components/ImageGallery";
+import ImageGallery from "./components/ImageGallery"
 import Food from "./pages/Food";
 import Login from "./components/auth/Login";
 import Register from "./components/auth/Register";
@@ -17,7 +17,6 @@ import { Provider } from "react-redux";
 import store from "./store";
 import { loadUser } from "./actions/auth";
 import setAuthToken from "./utils/setAuthToken";
-
 
 
 

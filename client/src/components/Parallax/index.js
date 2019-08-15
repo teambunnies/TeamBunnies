@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import "./style.css";
 
 function Parallax() {
@@ -9,6 +10,10 @@ function Parallax() {
                     <span class="border">
                         Discover Chicago 
                      </span>
+                     <div className="buttons">
+            <Link to="/register" className="btn btn-dark">Sign Up</Link>
+            <Link to="/login" className="btn btn-light">Login</Link>
+          </div>
                 </div>
             </div>
             <section class="section section-light">

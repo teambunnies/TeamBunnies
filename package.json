@@ -22,36 +22,18 @@
     "nodemon": "^1.19.1"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "animate.css": "^3.7.2",
-=======
-    "axios": "^0.18.0",
-    "bcrypt": "^3.0.6",
->>>>>>> 448fc8ccfdd0c2a320f0839a6b4a8e90ec348d78
     "bcryptjs": "^2.4.3",
     "bootstrap": "^4.3.1",
-    "cheerio": "^1.0.0-rc.3",
+    "config": "^3.2.2",
     "dotenv": "^8.0.0",
     "express": "^4.16.3",
-    "express-session": "^1.16.2",
+    "express-validator": "^6.1.1",
     "if-env": "^1.0.4",
-    "instagram-node": "^0.5.8",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.6.5",
     "morgan": "^1.9.1",
-<<<<<<< HEAD
-    "react-body-backgroundcolor": "^1.2.1",
     "react-bootstrap": "^1.0.0-beta.10",
-    "react-user-profile": "^1.0.3",
     "request": "^2.88.0"
-=======
-    "mysql": "^2.17.1",
-    "mysql2": "^1.6.5",
-    "passport": "^0.4.0",
-    "passport-local": "^1.0.0",
-    "react-bootstrap": "^1.0.0-beta.10",
-    "sequelize": "^4.44.0",
-    "uuid": "^3.3.2"
->>>>>>> 448fc8ccfdd0c2a320f0839a6b4a8e90ec348d78
   },
   "repository": {
     "type": "git",

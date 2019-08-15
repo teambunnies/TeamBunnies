@@ -16,6 +16,7 @@ export const getChicagoName = () => async dispatch => {
         type: CHICAGO_NAME,
         payload: { firstname: firstname, lastname: lastname}
       });
+     
     
     } catch (err) {
       console.error(err)
@@ -24,6 +25,17 @@ export const getChicagoName = () => async dispatch => {
         payload: { msg: err.response.statusText, status: err.response.status}
       })
     }
+  };
+
+  export const ChicagoName = (firstname, lastname) => dispatch => {
+  
+    
+      dispatch({
+        type: CHICAGO_NAME,
+        payload: { firstname: firstname, lastname: lastname}
+      });
+    
+    
   };
  
 

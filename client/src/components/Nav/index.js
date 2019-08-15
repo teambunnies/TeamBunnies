@@ -2,15 +2,18 @@ import React, { Fragment }from 'react';
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
+import { getChicagoName } from "../../actions/chicagoname";
 
 import { logout } from '../../actions/auth'
 import "./style.css";
 
-const Nav = ({  auth: { isAuthenticated, loading}, logout}) => {
+const Nav = ({  auth: { isAuthenticated, loading}, chicagoname: {chicagoname},logout}) => {
  
   const authLinks = (
     <ul>
-      <p>HELLO,  </p>
+     
+      <p>HELLO, {chicagoname && chicagoname.lastname} </p>
+     
       <li><Link className="" to="/register">Resources</Link></li>
       <li>
         <a onClick={logout} href="#!">
@@ -43,11 +46,13 @@ const Nav = ({  auth: { isAuthenticated, loading}, logout}) => {
 Nav.propTypes = {
   logout: PropTypes.func.isRequired,
   auth: PropTypes.object.isRequired,
+  chicagoname: PropTypes.object.isRequired,
  
 }
 
 const mapStatetoProps = state => ({
   auth: state.auth,
+  chicagoname: state.auth
   
 })
 

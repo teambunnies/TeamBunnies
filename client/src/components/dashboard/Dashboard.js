@@ -4,18 +4,15 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { getChicagoName } from "../../actions/chicagoname";
 
-const Dashboard = ({ getChicagoName, auth: { user }, chicagoname: {chicagoname, loading} }) => {
-  useEffect(() => {
-    
-    getChicagoName();
-  }, [getChicagoName]);
+const Dashboard = ({  auth: { user }, chicagoname: {chicagoname, loading} }) => {
+  
   return loading && chicagoname === null ? (
     <div>..loading</div>
   ) : (
       <Fragment>
           <h1 className='large text-primary'>Dashboard</h1>
     
-        <h2 className="test"> Welcome{' '}{chicagoname && chicagoname.firstname} {chicagoname && chicagoname.lastname}</h2>
+        <h2 className="test"> Welcome,{' '}{chicagoname && chicagoname.firstname} {chicagoname && chicagoname.lastname}</h2>
    
       {chicagoname !=null ?(
           <Fragment>
@@ -45,6 +42,6 @@ const mapStateToProps = state => ({
 });
 
 export default connect(
-  mapStateToProps,
-  { getChicagoName }
+  mapStateToProps
+ 
 )(Dashboard);

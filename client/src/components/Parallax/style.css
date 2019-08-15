@@ -16,17 +16,17 @@ body,html {
   }
   
   .img1 {
-    background-image: url("/assets/images/img1.jpg");
+    background-image: url("../../images/img1.jpg");
     min-height: 500px;
   }
   
    .img2 {
-    background-image: url("/assets/images/img2.jpg");
+    background-image: url("../../images/img2.jpg");
     min-height: 400px;
   }
   
    .img3 {
-    background-image: url("/assets/images/img3.jpg");
+    background-image: url("../../images/img3.jpg");
     min-height: 600px;
   } 
    

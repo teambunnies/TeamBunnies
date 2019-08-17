@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Mern Demo",
   "main": "server.js",
+  "engines": {
+    "node": "10.15.3"
+  },
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
@@ -22,7 +25,11 @@
     "nodemon": "^1.19.1"
   },
   "dependencies": {
+<<<<<<< HEAD
     "bcrypt": "^3.0.6",
+=======
+    "bcryptjs": "^2.4.3",
+>>>>>>> c9042c2ec371fcda271bba73a01fdbd6e6aeb627
     "bootstrap": "^4.3.1",
     "config": "^3.2.2",
     "dotenv": "^8.0.0",
@@ -32,8 +39,12 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.6.5",
     "morgan": "^1.9.1",
+<<<<<<< HEAD
     "request": "^2.88.0",
     "react-bootstrap": "^1.0.0-beta.10"
+=======
+    "request": "^2.88.0"
+>>>>>>> c9042c2ec371fcda271bba73a01fdbd6e6aeb627
   },
   "repository": {
     "type": "git",

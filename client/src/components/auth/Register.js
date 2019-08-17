@@ -36,7 +36,7 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
   }
   return (
     <Fragment>
-      <section className='container'>
+      <section className='auth-container'>
         <h1 className='large text-dark'>Sign Up</h1>
         <p className='lead'>
           <i className='fas fa-user' /> Create Your Account

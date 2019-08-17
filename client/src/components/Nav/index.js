@@ -25,11 +25,12 @@ const Nav = ({  auth: { isAuthenticated, loading}, chicagoname: {chicagoname},lo
   )
 
   const guestLinks = (
-    <ul>
-    
-    <li><Link className="btn btn-dark" to="/register">Register</Link></li>
-    <li><Link className="btn btn-dark" to="/login">Login</Link></li>
-  </ul>
+    <>
+    {/* <li><Link className="btn btn-dark" to="/register">Register</Link></li> 
+    <li><Link className="btn btn-dark" to="/login">Login</Link></li> */}
+    <a class="btn btn-dark" href="/register" role="button">Register</a>
+    <a class="btn btn-dark" href="/login" role="button">Login</a>
+  </>
 
   )
   return (

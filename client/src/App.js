@@ -12,6 +12,7 @@ import Alert from "./components/layouts/Alert";
 import Dashboard from "./components/dashboard/Dashboard";
 import PrivateRoute from "./components/routing/PrivateRoute";
 import Parallax from "./components/Parallax";
+import Maps from "./components/map/Maps"
 
 //Redux
 import { Provider } from "react-redux";
@@ -49,6 +50,7 @@ const App = () => {
             <Route exact path='/resources' component={Resources} />
             <Route exact path='/food' component={Food} />
             <Route exact path='/gallery' component={ImageGallery} />
+            <Route exact path='/maps' component={Maps} />
             <PrivateRoute exact path='/dashboard' component={Dashboard} />
           </Switch>
         </section>

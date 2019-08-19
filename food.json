@@ -1,4 +1,4 @@
-{
+[{
     "Name": "pizza",
     "Title": "Deep Dish Pizza",
     "Img": "/assets/images/pizza.jpg",
@@ -57,4 +57,4 @@
     "Title": "Popcorn",
     "Img": "/assets/images/popcorn.jpg",
     "Description": "Popcorn is a variety of corn kernel, which expands and puffs up when heated. It can be flavored with seasoning or sugars."
-}
+}]

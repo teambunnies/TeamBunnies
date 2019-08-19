@@ -5,7 +5,7 @@ import Main from "./pages/Main";
 import Landing from "./pages/Landing";
 import Resources from "./pages/Resources";
 import ImageGallery from "./components/ImageGallery"
-import Food from "./pages/Food";
+import Food from "./components/foods/Food";
 import Login from "./components/auth/Login";
 import Register from "./components/auth/Register";
 import Alert from "./components/layouts/Alert";

@@ -1,7 +1,7 @@
 [{
     "Name": "pizza",
     "Title": "Deep Dish Pizza",
-    "Img": "/assets/images/pizza.jpg",
+    "Img": "assests/images/pizza.jpg",
     "Description": "Deep Dish Pizza was invented in 1943 and is the most popular dish associated with the city. It consists of a thick pan baked crust, vegetables, meat, tomato sauce and cheese."
 },
 {

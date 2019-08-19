@@ -8,7 +8,7 @@ function Photos() {
     <div>
 
     <h1>Chicago Photos Gallery </h1>
-
+    
     </div>
   )
 }

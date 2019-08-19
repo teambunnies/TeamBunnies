@@ -1,11 +1,11 @@
-.jumbotron-fluid {
+/* .jumbotron-fluid {
   position: fixed;
   top: 45%;
   left:25%;
   right:25%;
   padding-top: 15px;
   opacity: .5;
-}
+}  doesn't seem like it's been referenced anywhere */
 
 
 h1 {
@@ -17,5 +17,5 @@ h1 {
   font-family: "Yesteryear";
   text-align: center;
 } 
-
+/* h1 styling is being used for photo gallery header */
 

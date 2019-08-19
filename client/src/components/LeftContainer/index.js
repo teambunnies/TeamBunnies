@@ -11,13 +11,13 @@ function LeftContainer() {
                     <h3>  10 Must Try Foods in Chicago </h3> <hr /><br />
                     <section class="pizza">
                         <h4> 1. Deep Dish Pizza</h4>
-                        <img src="../../images/pizza.jpg" height="300" width="400"></img>
+                        <img src="/src/images/pizza.jpg" height="300" width="400"></img>
                         <p><br /> Deep Dish Pizza was invented in 1943 and is the most popular dish associated with the city. <br />
                             It consists of a thick pan baked crust, vegetables, meat, tomato sauce and cheese.</p>
                     </section>
-                    <section class="hotdogs">
+                    <section className="hotdogs">
                         <h4> 2. Chicago Style Hot Dogs</h4>
-                        <img src="../../images/hotdog.jpg" height="300" width="400"></img>
+                        <img src="../images/hotdogs.jpg" height="300" width="400"></img>
                         <p><br />The hot dog is topped with mustard, chopped white onions, bright green sweet pickle relish, a dill pickle spear, tomato slices or wedges, pickled sport peppers and a dash of celery salt. </p>
                     </section>
                     <section class="pierogis">

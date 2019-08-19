@@ -1,11 +1,11 @@
-html,body {
-    /* background-image: url("../../images/authentication.jpg"); */
+/* html,body {
+    background-image: url("../../images/authentication.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
-}
+}  */
 .auth-container {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -21,3 +21,16 @@ html,body {
    opacity: .7;
    display: inline-block;
 }
+
+.auth-background {
+    background-image: url("../../images/authentication.jpg");
+    height: 500px;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    width: 100%;
+
+    overflow-x: hidden; 
+    background-position: center;
+    background-attachment: fixed;
+  
+  }

@@ -9,7 +9,6 @@ import {
   LOGIN_FAIL,
   LOGOUT,
   GET_CHICAGO_NAME,
-  CHICAGO_NAME,
   CHICAGO_NAME_ERROR
 } from "./types";
 import setAuthToken from "../utils/setAuthToken";

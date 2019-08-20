@@ -15,14 +15,14 @@ class Food extends Component {
     
     return (
 
-        <section class="container">
-                <div class="LeftContainer">
+        <section className="section">
+          
         <Foods 
         //onclick method that originates from binding of props to the item Id in ItemImage
         
         //This is how we allow state to traverse into other components with props
         fooddata={this.state.fooddata}/>
-        </div>
+      
     </section>
      
     );

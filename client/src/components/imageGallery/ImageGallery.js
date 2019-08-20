@@ -1,7 +1,7 @@
 import React from 'react';
 
 import PhotoList from './PhotoList.js';
-import '../App.css';
+import '../../App.css';
 const API_KEY = '5bac03afeecf3029d75320d54df0ab3c081196f2e6531dccccf2d8c2aea2c0a6';
 
 class ImageGallery extends React.Component {
@@ -37,7 +37,7 @@ class ImageGallery extends React.Component {
     return (
       <div>
        
-        <div className="container">
+        <div className="section">
           <h1>Photo gallery</h1> 
         <PhotoList photos={this.state.photos} />
         </div>

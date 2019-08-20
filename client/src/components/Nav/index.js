@@ -12,9 +12,9 @@ const Nav = ({  auth: { isAuthenticated, loading}, chicagoname: {chicagoname},lo
   const authLinks = (
     <ul>
      
-      <p>HELLO, {chicagoname && chicagoname.lastname} </p>
+      <p>HELLO, {chicagoname && chicagoname.firstname} {chicagoname &&  chicagoname.lastname} </p>
      
-      <li><Link className="" to="/register">Resources</Link></li>
+      <li><Link className="" to="/dashboard">Dashboard</Link></li>
       <li>
         <a onClick={logout} href="#!">
           <i className="fas fa-sign-out-alt"></i>{' '}

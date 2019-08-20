@@ -1,10 +1,9 @@
 import React, { Fragment, useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "./components/Nav";
-import Main from "./pages/Main";
 import Landing from "./pages/Landing";
 import Resources from "./pages/Resources";
-import ImageGallery from "./components/ImageGallery"
+import ImageGallery from "./components/imageGallery/ImageGallery"
 import Food from "./components/foods/Food";
 import Login from "./components/auth/Login";
 import Register from "./components/auth/Register";

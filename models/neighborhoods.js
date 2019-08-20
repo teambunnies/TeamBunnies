@@ -19,4 +19,4 @@ const NeighborhoodSchema = new mongoose.Schema({
 
 });
 
-module.exports = Neighborhood = mongoose.model('user', NeighborhoodSchema)
+module.exports = Neighborhood = mongoose.model('neighborhood', NeighborhoodSchema)

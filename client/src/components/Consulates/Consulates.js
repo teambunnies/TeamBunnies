@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ConsulateItems from './ConsulateItems';
 import PropTypes from 'prop-types';
 
+
 class Consulates extends Component {
    
     render() {
@@ -14,7 +15,7 @@ class Consulates extends Component {
             //in React you must provide a key for list items, we using thename of the item
             key={consulate.Name} 
 
-            food={consulate} 
+            consulate={consulate} 
             />
             //on render, sort the items randomly
         ))

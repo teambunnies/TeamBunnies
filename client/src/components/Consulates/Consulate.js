@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import Consulates from "./Consulates"
-import consulatedata from "../../consulateCopy.json"
-
+import consulatedata from "../../consulate.json"
 import './style.css';
-
-
 
 class Consulate extends Component {
   state = {

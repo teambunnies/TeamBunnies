@@ -14,7 +14,6 @@ import PrivateRoute from "./components/routing/PrivateRoute";
 import Parallax from "./components/Parallax";
 import Maps from "./components/map/Maps";
 import Consulate from "./components/Consulates/Consulate";
-import Maps from "./components/map/Maps"
 import Experience from "./components/experiences/Experience"
 
 

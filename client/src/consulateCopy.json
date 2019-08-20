@@ -1,0 +1,22 @@
+[{
+    "Country": "Argentina",
+    "Name": "Consulate General of the Argentine Republic",
+    "Address": "205 North Michigan Avenue, Suite 4209, Chicago, Illinois 60601"
+},
+
+{
+    "Country": "Australia",
+    "Name": "Consulate General of the Commonwealth of Australia",
+    "Address": "123 North Wacker Drive, Suite 1330, Chicago, Illinois 60606"
+},
+{
+    "Country": "Austria",
+    "Name": "Honorary Consulate General of the Republic of Austria",
+    "Address": "203 North LaSalle Street, Suite 2500, Chicago, Illinois 60611"
+},
+{
+    "Country": "Bahamas",
+    "Name": "Honorary Consulate General of the Commonwealth of the Bahamas",
+    "Address": "980 North Michigan Avenue, Suite 1455, Chicago , Illinois 60610"
+}
+]

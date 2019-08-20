@@ -12,9 +12,9 @@ const Nav = ({  auth: { isAuthenticated, loading}, chicagoname: {chicagoname},lo
   const authLinks = (
     <ul>
      
-      <p>HELLO, {chicagoname && chicagoname.lastname} </p>
+      <p>HELLO, {chicagoname && chicagoname.firstname} {chicagoname &&  chicagoname.lastname} </p>
      
-      <li><Link className="" to="/register">Resources</Link></li>
+      <li><Link className="" to="/dashboard">Dashboard</Link></li>
       <li>
         <a onClick={logout} href="#!">
           <i className="fas fa-sign-out-alt"></i>{' '}
@@ -25,11 +25,12 @@ const Nav = ({  auth: { isAuthenticated, loading}, chicagoname: {chicagoname},lo
   )
 
   const guestLinks = (
-    <ul>
-    
-    <li><Link className="btn btn-dark" to="/register">Register</Link></li>
-    <li><Link className="btn btn-dark" to="/login">Login</Link></li>
-  </ul>
+    <>
+    {/* <li><Link className="btn btn-dark" to="/register">Register</Link></li> 
+    <li><Link className="btn btn-dark" to="/login">Login</Link></li> */}
+    <a class="btn btn-dark" href="/register" role="button">Register</a>
+    <a class="btn btn-dark" href="/login" role="button">Login</a>
+  </>
 
   )
   return (

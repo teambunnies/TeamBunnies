@@ -3,7 +3,7 @@ import React from 'react';
 const PhotoListItem = (props) => {
   return (
     <>
-      <img style={styles}src={props.url}></img>
+      <img style={styles}src={props.url} alt={props.alt}></img>
     </>
   )
 }

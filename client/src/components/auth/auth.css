@@ -1,0 +1,36 @@
+/* html,body {
+    background-image: url("../../images/authentication.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}  */
+.auth-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.btn-secondary, .btn-light {
+    height: 40px;
+    margin-top: 20px; 
+    text-align: center;
+    opacity: .8;
+}
+
+.btn-dark {
+   opacity: .7;
+   display: inline-block;
+}
+
+.auth-background {
+    background-image: url("../../images/authentication.jpg");
+    height: 500px;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    width: 100%;
+
+    overflow-x: hidden; 
+    background-position: center;
+    background-attachment: fixed;
+  
+  }

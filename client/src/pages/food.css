@@ -1,22 +1,23 @@
-.container {
+/* .container {
     margin-top: 50px;
     float: left;
-    width:50%;
+    width:50%; 
     padding-left: 100px;
     display: block;
     padding-right: 100px;
-}
+}  */
 .leftContainer {
     position: absolute;
     left: 0px;
     width: 50%;
-    padding-left: 50px;
+    padding-left: 100px;
     padding-right: 75px;
     text-align: center;
+    display: inline-block;
 }
 
 .rightContainer {
-    position: absolute;
+    position: relative;
     right: 0px;
     width: 50%;
     padding-left: 50px;
@@ -31,8 +32,8 @@ p {
 .h4, h4, .h3, h3, .h5, h5 {
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 900;
-
 }
+
 .pizza, .hotdogs, .pierogis, .italianbeef, .tamales, 
 .burgers, .tacos, .churros, .gelato {
     padding-bottom: 50px;
@@ -53,6 +54,7 @@ p {
 .alsbeef, .xoco {
     padding-bottom: 120px;
 }
+
 .aucheval {
     padding-bottom: 85px;
 }

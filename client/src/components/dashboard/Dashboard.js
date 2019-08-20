@@ -1,23 +1,45 @@
-import React, { Fragment, useEffect } from "react";
+import React, { Fragment } from "react";
 import PropTypes from "prop-types";
-
+import DashboardActions from "./DashboardActions"
 import { connect } from "react-redux";
-import { getChicagoName } from "../../actions/chicagoname";
+
 
 const Dashboard = ({  auth: { user }, chicagoname: {chicagoname, loading} }) => {
   
   return loading && chicagoname === null ? (
     <div>..loading</div>
   ) : (
-      <Fragment>
-          <h1 className='large text-primary'>Dashboard</h1>
+   
     
-        <h2 className="test"> Welcome,{' '}{chicagoname && chicagoname.firstname} {chicagoname && chicagoname.lastname}</h2>
+    
+ 
+      <Fragment>
+    
+    
+      <section className="section auth-background">
+      <h2> Welcome,</h2>
+        <h2 className=""> {' '}{chicagoname && chicagoname.firstname} {chicagoname && chicagoname.lastname}</h2>
+        <h2> <hr />Where to? <hr /></h2>
+        <DashboardActions />
+      </section>
+      <section class="section section-dark">
+        
+      </section>
+           
+      
    
       {chicagoname !=null ?(
           <Fragment>
-          <h2>{chicagoname.lastnames}</h2>
+             
+           
+             <section class="section section-dark">
+        <h2> Favorites <hr /></h2>
+      </section>
+       
+          
+         
       </Fragment>
+     
       ) : (
         <Fragment>
           <p>You Have not been assigned a chicagoname</p>
@@ -25,7 +47,9 @@ const Dashboard = ({  auth: { user }, chicagoname: {chicagoname, loading} }) => 
            
         </Fragment>
       )}
+      
       </Fragment>
+   
   )
 };
 
@@ -45,3 +69,4 @@ export default connect(
   mapStateToProps
  
 )(Dashboard);
+

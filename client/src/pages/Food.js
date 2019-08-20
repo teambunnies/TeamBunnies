@@ -8,7 +8,6 @@ import RightContainer from "../components/RightContainer";
 function Food() {
     return (
       <>
-        <Nav />
         <LeftContainer />
         <RightContainer />
       </>

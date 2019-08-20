@@ -19,9 +19,9 @@ export class ConsulateItems extends Component {
     }
 }
 
-ConsulateItems.propTypes = {
-    consulatedata: PropTypes.object.isRequired
-}
+// ConsulateItems.propTypes = {
+//     consulatedata: PropTypes.object.isRequired
+// }
 
  
 

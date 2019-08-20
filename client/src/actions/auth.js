@@ -107,7 +107,7 @@ export const logout = () => dispatch => {
 
 // Get Chicago Name
 export const getChicagoName = () => async dispatch => {
-  console.log(dispatch);
+ 
 
   try {
     const res = await axios.get("/api/chicagoname");

@@ -1,0 +1,11 @@
+[
+    { "neighborhood": "Rogers Park", "lat": "42.010921", "lng": "-87.680748", "weight": 75},
+    { "neighborhood": "West Ridge", "lat": "41.987438", "lng": "-87.661110" , "weight": 1500},
+    { "neighborhood": "Uptown", "lat": "41.987440", "lng": "-87.661110", "weight": 500},
+    { "neighborhood": "Lincoln Square", "lat": "41.987438", "lng": "-87.661110", "weight": 1500 },
+    { "neighborhood": "North Center", "lat": "41.954311", "lng": "-87.721153", "weight": 10},
+    { "neighborhood": "Lake View", "lat": "41.947080", "lng": "-87.652180", "weight": 175 },
+    { "neighborhood": "Lincoln Park", "lat": "41.920800", "lng": "-87.652990" , "weight": 5},
+    { "neighborhood": "Near North Side", "lat": "41.920800", "lng": "-87.652990", "weight": 25},
+    { "neighborhood": "Edison Park", "lat": "42.007900", "lng": "-87.813683", "weight": 4 }
+]

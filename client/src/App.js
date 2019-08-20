@@ -11,7 +11,7 @@ import Alert from "./components/layouts/Alert";
 import Dashboard from "./components/dashboard/Dashboard";
 import PrivateRoute from "./components/routing/PrivateRoute";
 import Parallax from "./components/Parallax";
-import Maps from "./components/map/Maps";
+import Maps from "./components/map/Heatmap";
 import Consulate from "./components/Consulates/Consulate";
 import Experience from "./components/experiences/Experience"
 

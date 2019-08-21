@@ -14,6 +14,7 @@ import Parallax from "./components/Parallax";
 import Maps from "./components/map/Heatmap";
 import Consulate from "./components/Consulates/Consulate";
 import Experience from "./components/experiences/Experience"
+import Restaurant from "./components/restaurants/Restaurant"
 
 
 //Redux
@@ -51,6 +52,7 @@ const App = () => {
             <Route exact path='/resources' component={Resources} />
             <Route exact path='/food' component={Food} />
             <Route exact path='/experience' component={Experience} />
+            <Route exact path='/restaurant' component={Restaurant} />
             <Route exact path='/gallery' component={ImageGallery} />
             <Route exact path='/maps' component={Maps} />
             <Route exact path='/consulates' component={Consulate} />

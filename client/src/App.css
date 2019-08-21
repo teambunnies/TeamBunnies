@@ -23,12 +23,12 @@
   to { transform: rotate(360deg); }
 }
 
-.jumbotron {
+/* .jumbotron {
   background-image: url("/assets/images/landingchicago.jpg");
   height: 65vh;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .ptext {
   position: absolute;
@@ -57,6 +57,7 @@
   height: 400px;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 .section-dark {
@@ -64,19 +65,20 @@
   color: white;
   font-family: 'Poiret One', cursive;
   height: 400px;
+  width: 100%;
 }
 
 .section { 
-  max-width: 1100px;
+  max-width: 100%;
   margin: auto;
   overflow: hidden;
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
   margin-top: 6rem;
   margin-bottom: 3rem;
   text-align: center;
   padding: 50px 80px;
 }
-
+/* 
  .btn-outline-dark {
    background-color: rgb(112, 145, 189); 
-}
+} */

@@ -1,9 +1,9 @@
 [{
     "Name": "millenniumpark",
     "Title": "Millennium Park",
-    "Img": "assests/images/millenniumpark.jpg",
+    "Img": "/assets/images/millenniumpark.jpg",
     "Address": "201 E Randolph St, Chicago, IL 60602",
-    "Admission": "Free",
+    "Admission": "Admission: Free",
     "Description": "Discover a state-of-the-art collection of architecture, landscape design and art that provide the backdrop for hundreds of free cultural programs including concerts, exhibitions, tours, and family activities. In Millennium Park, you’ll find a new kind of town square – a lively, spectacular gathering spot located in the heart of the city and a destination for Chicagoans and visitors alike."
 },
 {
@@ -11,7 +11,7 @@
     "Title": "Sears Tower Skydeck",
     "Img": "/assets/images/skydeck.jpg",
     "Address": "233 S Wacker Dr, Chicago, IL 60606 on 103rd floor",
-    "Admission": "$17(ages 3-11) and $25(ages 12+)",
+    "Admission": "Admission: $17(ages 3-11) and $25(ages 12+)",
     "Description": "103rd floor of the former Sears Tower with clear observation boxes & views extending to four states."
 },
 {
@@ -19,7 +19,7 @@
     "Title": "Riverwalk",
     "Img": "/assets/images/riverwalk.jpg",
     "Address": "Lake Shore Drive to Lake Street",
-    "Admission": "Free",
+    "Admission": "Admission: Free",
     "Description": "For a unique city experience, head down to the south bank of the Chicago River and explore the pedestrian-friendly Chicago Riverwalk, which stretches from Lake Shore Drive to Lake Street. This self-guided Chicago Riverwalk tour will keep you busy uncovering riverside surprises."
 },
 {
@@ -27,7 +27,7 @@
     "Title": "Magnificent Mile",
     "Img": "/assets/images/magnificentmile.jpg",
     "Address": "Michigan Ave",
-    "Admission": "Free",
+    "Admission": "Admission: Free",
     "Description": "The Magnificent Mile is Chicago’s premier commercial district. The vibrant, bustling area is home to upscale shops, luxe fashion outlets, cool restaurants and posh hotels."
 },
 {
@@ -35,7 +35,7 @@
     "Title": "Navy Pier",
     "Img": "/assets/images/navypier.jpg",
     "Address": "600 E Grand Ave, Chicago, IL 60611",
-    "Admission": "Free",
+    "Admission": "Admission: Free",
     "Description": "Navy Pier is a 3,300-foot-long pier on the Chicago shoreline of Lake Michigan. It is located in the Streeterville neighborhood of the Near North Side community area."
 },
 {
@@ -43,7 +43,7 @@
     "Title": "Art Institute of Chicago",
     "Img": "/assets/images/artinstitute.jpg",
     "Address": "111 S Michigan Ave, Chicago, IL 60603",
-    "Admission": "Children: Free(13 and under) Adults: $25",
+    "Admission": "Admission: Children: Free(13 and under) Adults: $25",
     "Description": "The Art Institute of Chicago, founded in 1879 and located in Chicago's Grant Park, is one of the oldest and largest art museums in the United States. Recognized for its curatorial efforts and popularity among visitors, the museum hosts approximately 1.5 million people annually."
 },
 {
@@ -51,7 +51,7 @@
     "Title": "North Avenue Beach",
     "Img": "/assets/images/northavenue.jpg",
     "Address": "1600 N Lake Shore Dr, Chicago, IL 60613",
-    "Admission": "Free",
+    "Admission": "Admission: Free",
     "Description": "One of Chicago's most popular beaches with stores, dining, & a beach house with amazing city views."
 },
 {
@@ -59,7 +59,7 @@
     "Title": "Adler Planetarium",
     "Img": "/assets/images/adlerplanetarium.jpg",
     "Address": "1300 S Lake Shore Dr, Chicago, IL 60605",
-    "Admission": "Children: $13(ages 3-11) Adults: $19",
+    "Admission": "Admission: Children: $13(ages 3-11) Adults: $19",
     "Description": "The Adler Planetarium is a public museum dedicated to the study of astronomy and astrophysics. It was founded in 1930 by Chicago business leader Max Adler. It is located on the northeast tip of Northerly Island at the shore of Lake Michigan in Chicago, Illinois."
 },
 {
@@ -67,7 +67,7 @@
     "Title": "Buckingham Fountain",
     "Img": "/assets/images/buckinghamfountain.jpg",
     "Address": "301 S Columbus Dr, Chicago, IL 60605",
-    "Admission": "Free",
+    "Admission": "Admission: Free",
     "Description": "Buckingham Fountain is a Chicago landmark in the center of Grant Park. Dedicated in 1927, it is one of the largest fountains in the world. Built in a rococo wedding cake style and inspired by the Latona Fountain at the Palace of Versailles, it is meant to allegorically represent Lake Michigan. "
 },
 {

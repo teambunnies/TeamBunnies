@@ -15,6 +15,8 @@ import {
   find
 } from "lodash";
 
+import "./style.css"
+
 class Heatmap extends Component {
   constructor(props) {
     super(props);
@@ -105,13 +107,15 @@ class Heatmap extends Component {
       <Fragment>
         <div className='section' style={{ height: "100vh", width: "100%" }}>
           <Fragment>
+          <h4>Select a language to see the concentration of language speakers in Chicago</h4>
             <Select
               value={selectedOption}
               onChange={this.handleChange}
               options={options}
             />
           </Fragment>
-          <h1>Spanish Speakers</h1>
+          
+          <h1>{selectedOption} Speakers</h1>
           <GoogleMapReact
             defaultZoom={10}
             defaultCenter={CHICAGO_CENTER}

@@ -1,8 +1,8 @@
-import React, { Fragment, useEffect } from "react";
+import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 import DashboardActions from "./DashboardActions"
 import { connect } from "react-redux";
-import { getChicagoName } from "../../actions/chicagoname";
+
 
 const Dashboard = ({  auth: { user }, chicagoname: {chicagoname, loading} }) => {
   
@@ -16,14 +16,14 @@ const Dashboard = ({  auth: { user }, chicagoname: {chicagoname, loading} }) => 
       <Fragment>
     
     
-      <section class="section section-light">
-      <h2> Profile<hr /></h2>
-        <h2 className=""> Welcome,{' '}{chicagoname && chicagoname.firstname} {chicagoname && chicagoname.lastname}</h2>
-      
-      </section>
-      <section class="section section-dark">
-        <h2> Where to? <hr /></h2>
+      <section className="section auth-background">
+      <h2> Welcome,</h2>
+        <h2 className=""> {' '}{chicagoname && chicagoname.firstname} {chicagoname && chicagoname.lastname}</h2>
+        <h2> <hr />Where to? <hr /></h2>
         <DashboardActions />
+      </section>
+      <section className="section section-dark">
+        
       </section>
            
       
@@ -32,7 +32,7 @@ const Dashboard = ({  auth: { user }, chicagoname: {chicagoname, loading} }) => 
           <Fragment>
              
            
-             <section class="section section-dark">
+             <section className="section section-dark">
         <h2> Favorites <hr /></h2>
       </section>
        
@@ -54,7 +54,7 @@ const Dashboard = ({  auth: { user }, chicagoname: {chicagoname, loading} }) => 
 };
 
 Dashboard.propTypes = {
-  getChicagoName: PropTypes.func.isRequired,
+ 
   auth: PropTypes.object.isRequired,
   chicagoname: PropTypes.object.isRequired
 };

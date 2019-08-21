@@ -1,10 +1,9 @@
 import React, { Fragment, useEffect } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "./components/Nav";
-import Main from "./pages/Main";
 import Landing from "./pages/Landing";
 import Resources from "./pages/Resources";
-import ImageGallery from "./components/ImageGallery"
+import ImageGallery from "./components/imageGallery/ImageGallery"
 import Food from "./components/foods/Food";
 import Login from "./components/auth/Login";
 import Register from "./components/auth/Register";
@@ -12,7 +11,8 @@ import Alert from "./components/layouts/Alert";
 import Dashboard from "./components/dashboard/Dashboard";
 import PrivateRoute from "./components/routing/PrivateRoute";
 import Parallax from "./components/Parallax";
-import Maps from "./components/map/Maps"
+import Maps from "./components/map/Heatmap";
+import Consulate from "./components/Consulates/Consulate";
 import Experience from "./components/experiences/Experience"
 
 
@@ -53,6 +53,7 @@ const App = () => {
             <Route exact path='/experience' component={Experience} />
             <Route exact path='/gallery' component={ImageGallery} />
             <Route exact path='/maps' component={Maps} />
+            <Route exact path='/consulates' component={Consulate} />
             <PrivateRoute exact path='/dashboard' component={Dashboard} />
           </Switch>
         </section>

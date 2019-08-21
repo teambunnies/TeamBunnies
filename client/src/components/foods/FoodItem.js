@@ -10,7 +10,7 @@ export class FoodItem extends Component {
             
             <section className={Name}>
             <h4>{Title}</h4>
-            <img src={Img} height="300" width="400"></img>
+            <img src={Img} alt={Name}height="300" width="400"></img>
             <p className="description">{Description}</p>
         </section>
    
@@ -19,9 +19,9 @@ export class FoodItem extends Component {
     }
 }
 
-FoodItem.propTypes = {
-    fooddata: PropTypes.object.isRequired
-}
+// FoodItem.propTypes = {
+//     fooddata: PropTypes.object.isRequired
+// }
 
  
 

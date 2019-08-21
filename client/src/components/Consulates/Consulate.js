@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
-import Experiences from "./Experiences"
-import experiencesdata from "../../experiences.json"
+import Consulates from "./Consulates"
+import consulatedata from "../../consulate.json"
+import './style.css';
 
-import './experiences.css';
-
-
-
-class Experience extends Component {
+class Consulate extends Component {
   state = {
-    experiencesdata
+    consulatedata
   }
 
   render() {
@@ -17,12 +14,12 @@ class Experience extends Component {
 
         <section class="section">
                
-        <Experiences
+        <Consulates 
         //onclick method that originates from binding of props to the item Id in ItemImage
         
         //This is how we allow state to traverse into other components with props
-        experiencesdata={this.state.experiencesdata}/>
-        
+        consulatedata={this.state.consulatedata}/>
+       
     </section>
      
     );
@@ -31,4 +28,4 @@ class Experience extends Component {
 
 }
 
-export default Experience;
+export default Consulate;

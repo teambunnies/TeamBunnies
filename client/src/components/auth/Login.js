@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from "react";
 import { Link, Redirect } from "react-router-dom";
 import { connect } from "react-redux";
-import { setAlert } from "../../actions/alert";
+
 import { login } from "../../actions/auth";
 import PropTypes from "prop-types";
 import "./auth.css";
@@ -30,6 +30,7 @@ const Login = ({ login, isAuthenticated }) => {
 
   return (
     <Fragment>
+      
      <section className='auth-background'>
       <section className='auth-container'>
         <h1 className='large text-secondary'>Login</h1>
@@ -66,7 +67,7 @@ const Login = ({ login, isAuthenticated }) => {
         </p>
       </section>
       </section>
-      
+     
     </Fragment>
   );
 };

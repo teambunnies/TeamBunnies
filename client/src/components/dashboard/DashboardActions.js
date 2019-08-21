@@ -3,24 +3,21 @@ import { Link } from "react-router-dom";
 
 const DashboardActions = () => {
   return (
-    <div class='dash-buttons'>
-      <Link to='/edit-profile' class='btn btn-light'>
-        <i class='fas fa-user-circle text-primary' /> Edit Profile
+    <div className='dash-buttons'>
+      <Link to='/food' className='btn btn-light'>
+        <i className='fab fa-black-tie text-primary' /> Foods
       </Link>
-      <Link to='/food' class='btn btn-light'>
-        <i class='fab fa-black-tie text-primary' /> Foods
+      <Link to='/experience' className='btn btn-light'>
+        <i className='fab fa-black-tie text-primary' /> Experiences
       </Link>
-      <Link to='/experiences' class='btn btn-light'>
-        <i class='fab fa-black-tie text-primary' /> Experiences
+      <Link to='/gallery' className='btn btn-light'>
+        <i className='fas fa-graduation-cap text-primary' /> Image Gallery
       </Link>
-      <Link to='/gallery' class='btn btn-light'>
-        <i class='fas fa-graduation-cap text-primary' /> Image Gallery
+      <Link to='/consulates' className='btn btn-light'>
+        <i className='fas fa-graduation-cap text-primary' /> Consulates
       </Link>
-      <Link to='/resources' class='btn btn-light'>
-        <i class='fas fa-graduation-cap text-primary' /> Resources
-      </Link>
-      <Link to='/maps' class='btn btn-light'>
-        <i class='fas fa-graduation-cap text-primary' /> Maps
+      <Link to='/maps' className='btn btn-light'>
+        <i className='fas fa-graduation-cap text-primary' /> Maps
       </Link>
     </div>
   );

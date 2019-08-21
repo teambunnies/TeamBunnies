@@ -9,7 +9,6 @@ import {
   LOGIN_FAIL,
   LOGOUT,
   GET_CHICAGO_NAME,
-  CHICAGO_NAME,
   CHICAGO_NAME_ERROR
 } from "./types";
 import setAuthToken from "../utils/setAuthToken";
@@ -108,7 +107,7 @@ export const logout = () => dispatch => {
 
 // Get Chicago Name
 export const getChicagoName = () => async dispatch => {
-  console.log(dispatch);
+ 
 
   try {
     const res = await axios.get("/api/chicagoname");

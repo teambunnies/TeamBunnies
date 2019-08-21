@@ -1,13 +1,9 @@
 const mongoose = require("mongoose");
-const Schema = mongoose.Schema;
 
-const consulateSchema = new Schema({
-  country: { type: String, required: true },
-  name: { type: String, required: true },
-  address: String,
-  cityState: { type: Date, default: Date.now }
+const ConsulateSchema = new mongoose.Schema({
+  consulates: [
+    { db_area: String, db_area_name: String, lat: String, lng: String }
+  ]
 });
 
-const Consulate = mongoose.model("Consulate", consulateSchema);
-
-module.exports = Consulate;
+module.exports = Consulate = mongoose.model("consulate", ConsulateSchema);

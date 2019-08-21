@@ -1,7 +1,6 @@
 import React, { Fragment, useState } from "react";
 import { Link, Redirect } from "react-router-dom";
 import { connect } from "react-redux";
-
 import { login } from "../../actions/auth";
 import PropTypes from "prop-types";
 import "./auth.css";
@@ -30,8 +29,7 @@ const Login = ({ login, isAuthenticated }) => {
 
   return (
     <Fragment>
-      
-     <section className='auth-background'>
+    
       <section className='auth-container'>
         <h1 className='large text-secondary'>Login</h1>
         <p className='lead'>
@@ -66,7 +64,8 @@ const Login = ({ login, isAuthenticated }) => {
           Don't have an account? <Link to='/register'>Sign Up</Link>
         </p>
       </section>
-      </section>
+
+      
      
     </Fragment>
   );

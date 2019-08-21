@@ -5,12 +5,9 @@ import "./auth.css";
 function authBackground() {
   return (
     <>
-      <div className="background">
+      <div className="auth-background">
       </div>
-      <div class="jumbotron">
-        <div class="container">
-        </div>
-      </div>
+  
     </>
   );
 }

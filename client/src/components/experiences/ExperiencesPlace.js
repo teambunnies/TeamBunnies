@@ -10,7 +10,7 @@ export class ExperiencesPlace extends Component {
             
             <section className={Name}>
             <h4>{Title}</h4>
-            <img src={Img} alt={Name} height="300" width="400"></img>
+            <img src={Img} alt={Name} height="350" width="450"></img>
             <h5>{Address}</h5>
             <h5>{Admission}</h5>
             <p className="description">{Description}</p>

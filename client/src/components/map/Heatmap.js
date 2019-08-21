@@ -85,7 +85,7 @@ class Heatmap extends Component {
             defaultCenter={CHICAGO_CENTER}
             heatmap={heatmapData}
             bootstrapURLKeys={{
-              key: process.env.REACT_APP_MAP_KEY,
+              key: `${process.env.REACT_APP_MAP_KEY}`,
               libraries: ['visualization'],
             }}
           />

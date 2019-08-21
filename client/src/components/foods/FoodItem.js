@@ -19,9 +19,9 @@ export class FoodItem extends Component {
     }
 }
 
-FoodItem.propTypes = {
-    fooddata: PropTypes.object.isRequired
-}
+// FoodItem.propTypes = {
+//     fooddata: PropTypes.object.isRequired
+// }
 
  
 

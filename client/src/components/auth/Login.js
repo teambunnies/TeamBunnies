@@ -30,6 +30,7 @@ const Login = ({ login, isAuthenticated }) => {
 
   return (
     <Fragment>
+      
      <section className='auth-background'>
       <section className='auth-container'>
         <h1 className='large text-secondary'>Login</h1>
@@ -66,7 +67,7 @@ const Login = ({ login, isAuthenticated }) => {
         </p>
       </section>
       </section>
-      
+     
     </Fragment>
   );
 };

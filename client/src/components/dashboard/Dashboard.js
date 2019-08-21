@@ -22,7 +22,7 @@ const Dashboard = ({  auth: { user }, chicagoname: {chicagoname, loading} }) => 
         <h2> <hr />Where to? <hr /></h2>
         <DashboardActions />
       </section>
-      <section class="section section-dark">
+      <section className="section section-dark">
         
       </section>
            
@@ -32,7 +32,7 @@ const Dashboard = ({  auth: { user }, chicagoname: {chicagoname, loading} }) => 
           <Fragment>
              
            
-             <section class="section section-dark">
+             <section className="section section-dark">
         <h2> Favorites <hr /></h2>
       </section>
        
@@ -54,7 +54,7 @@ const Dashboard = ({  auth: { user }, chicagoname: {chicagoname, loading} }) => 
 };
 
 Dashboard.propTypes = {
-  getChicagoName: PropTypes.func.isRequired,
+ 
   auth: PropTypes.object.isRequired,
   chicagoname: PropTypes.object.isRequired
 };

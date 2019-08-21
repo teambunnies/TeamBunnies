@@ -21,9 +21,9 @@ export class ExperiencesPlace extends Component {
     }
 }
 
-ExperiencesPlace.propTypes = {
-    experiencesdata: PropTypes.object.isRequired
-}
+// ExperiencesPlace.propTypes = {
+//     experiencesdata: PropTypes.object.isRequired
+// }
 
  
 

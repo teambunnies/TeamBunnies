@@ -29,8 +29,8 @@ const Nav = ({  auth: { isAuthenticated, loading}, chicagoname: {chicagoname},lo
     {/* <li><Link className="btn btn-dark" to="/register">Register</Link></li> 
     <li><Link className="btn btn-dark" to="/login">Login</Link></li> */}
     <ul>
-    <li className="btn btn-dark" href="/register" role="button">Register</li>
-    <li className="btn btn-dark" href="/login" role="button">Login</li>
+    <li><Link className="btn btn-dark" to="/register" role="button">Register</Link></li>
+    <li> <Link className="btn btn-dark" to="/login" role="button">Login</Link></li>
     </ul>
   </>
 

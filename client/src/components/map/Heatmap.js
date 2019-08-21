@@ -7,19 +7,26 @@ class Heatmap extends Component {
     super(props);
 
     this.state = {
-      places: [],
+      places: [
+        
+      ],
+      census: []
     };
   }
 
   componentDidMount() {
-    fetch('places.json')
+    fetch('/api/areas')
       .then(response => response.json())
       .then(data => this.setState({ places: data }));
+      fetch('https://data.cityofchicago.org/resource/a2fk-ec6q.json')
+      .then(response => response.json())
+      .then(data => this.setState({ census: data }));
+      
   }
 
   render() {
     const { places } = this.state;
-    // console.log(this.state)
+    console.log(this.state)
     const data = places.map(place => ({
       lat: place.lat,
       lng: place.lng,

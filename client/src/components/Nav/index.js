@@ -15,11 +15,12 @@ const Nav = ({  auth: { isAuthenticated, loading}, chicagoname: {chicagoname},lo
       <p>HELLO, {chicagoname && chicagoname.firstname} {chicagoname &&  chicagoname.lastname} </p>
      
       <li><Link className="" to="/dashboard">Dashboard</Link></li>
-      <li>
-        <a onClick={logout} href="#!">
-          <i className="fas fa-sign-out-alt"></i>{' '}
-          <span className="hide-sm">Logout</span></a>
-        </li>
+      <li><Link to='/food'>Foods</Link></li>
+      <li><Link to='/experience'>Experiences</Link></li>
+      <li><Link to='/gallery'>Image Gallery</Link></li>
+      <li><Link to='/consulates'>Consulates</Link></li>
+      <li><Link to='/maps'>Maps</Link></li>
+      <li><Link onClick={logout} to="/login">Logout</Link></li>
     </ul>
     
   )
@@ -29,8 +30,8 @@ const Nav = ({  auth: { isAuthenticated, loading}, chicagoname: {chicagoname},lo
     {/* <li><Link className="btn btn-dark" to="/register">Register</Link></li> 
     <li><Link className="btn btn-dark" to="/login">Login</Link></li> */}
     <ul>
-    <li><Link className="btn btn-dark" to="/register" role="button">Register</Link></li>
-    <li> <Link className="btn btn-dark" to="/login" role="button">Login</Link></li>
+    <li><Link className="" to="/register" role="button">Register</Link></li>
+    <li> <Link className="" to="/login" role="button">Login</Link></li>
     </ul>
   </>
 

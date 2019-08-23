@@ -1,10 +1,11 @@
-/* html,body {
-    background-image: url("../../images/authentication.jpg"); 
+ /* html {
+  background-image: url("../../images/authentication.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
 }  */
+
 .auth-container {
-    
+ 
     position: absolute;
     top: 50%;
     left: 50%;

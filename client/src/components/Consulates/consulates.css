@@ -1,0 +1,36 @@
+/* /* .section {
+    color: red;
+    border: solid 2px black;
+   
+/* } */
+.consulates {
+    background-image: url("../../images/consulate.jpg");
+    
+    /* background-size: 100% 100%; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px;
+    color: white;
+    padding-top: 100px;
+    
+} 
+
+/* .section { */
+    /* color: white; */
+
+  
+  /* body { */
+    /* The image used */
+    /* background-image: url("../../images/burger.jpg"); */
+  
+    /* Full height */
+   
+  
+    /* Create the parallax scrolling effect */
+    /* background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+  

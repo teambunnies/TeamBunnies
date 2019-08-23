@@ -1,7 +1,8 @@
 import React from 'react';
 
 import PhotoList from './PhotoList.js';
-import '../../App.css';
+import "./image.css";
+// import '../../App.css';
 const API_KEY = process.env.REACT_APP_UNSPLASH_API;
 
 class ImageGallery extends React.Component {

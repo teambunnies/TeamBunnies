@@ -36,8 +36,10 @@ p {
 
 }
 .pizza, .hotdogs, .pierogis, .italianbeef, .tamales, 
-.burgers, .tacos, .churros, .gelato {
+.burgers, .tacos, .churros, .gelato, .popcorn {
     padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .giordanos, .brokenenglish {

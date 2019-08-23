@@ -1,0 +1,28 @@
+h2, .h2 {
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+p {
+    font-size: 20px;
+}
+
+.giordanos,.devildawgs, .pierogiheaven, .alsbeef, .elmilagro, 
+.aucheval, .brokenenglish, .xoco, .amorino, .garrettpopcorn{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.img, img {
+    margin: 20px;
+}
+
+h1, .h1 {
+    font-size: 50px;
+}
+h4, .h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.amorino {
+    margin-bottom: 150px;
+}

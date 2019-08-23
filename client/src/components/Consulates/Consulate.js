@@ -12,6 +12,9 @@ class Consulate extends Component {
     
     return (
 
+        // <section class="section">
+        //   <h1> Consulates in Chicago </h1>
+               
         <section className="consulates">
               <h1>Consulates</h1> 
         <Consulates 

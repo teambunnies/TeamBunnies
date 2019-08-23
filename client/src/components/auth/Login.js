@@ -6,6 +6,9 @@ import PropTypes from "prop-types";
 import "./auth.css";
 
 
+
+
+
 const Login = ({ login, isAuthenticated }) => {
   const [formData, setFormData] = useState({
     email: "",
@@ -29,11 +32,13 @@ const Login = ({ login, isAuthenticated }) => {
   }
 
   return (
+    
+    <>
   
     <Fragment>
-    
+   
     <section className='auth-container'>
-        <h1 className='large text-secondary'>Login</h1>
+        <h1 className='large text-secondary-red'>Login</h1>
         <p className='lead'>
           <i className='fas fa-user' /> Sign in to your Account
         </p>
@@ -72,6 +77,7 @@ const Login = ({ login, isAuthenticated }) => {
       
      
     </Fragment>
+    </>
   );
 };
 Login.propTypes = {

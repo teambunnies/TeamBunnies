@@ -5,6 +5,7 @@ function LandingNav() {
   return (
     <>
       <div className="landing-background">
+      
       </div>
       {/* <section class="section section-light-landing">
         <h2> Profile<hr /></h2>

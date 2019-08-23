@@ -12,10 +12,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 300px;
-    color: white;
+    color:black;
     padding-top: 100px;
     
 } 
+
+.text-secondary-red {
+    color: red
+  }
 
 /* .section { */
     /* color: white; */

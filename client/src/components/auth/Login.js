@@ -5,6 +5,7 @@ import { login } from "../../actions/auth";
 import PropTypes from "prop-types";
 import "./auth.css";
 
+
 const Login = ({ login, isAuthenticated }) => {
   const [formData, setFormData] = useState({
     email: "",
@@ -28,9 +29,10 @@ const Login = ({ login, isAuthenticated }) => {
   }
 
   return (
+  
     <Fragment>
     
-      <section className='auth-container'>
+    <section className='auth-container'>
         <h1 className='large text-secondary'>Login</h1>
         <p className='lead'>
           <i className='fas fa-user' /> Sign in to your Account
@@ -64,6 +66,8 @@ const Login = ({ login, isAuthenticated }) => {
           Don't have an account? <Link to='/register'>Sign Up</Link>
         </p>
       </section>
+  
+      
 
       
      

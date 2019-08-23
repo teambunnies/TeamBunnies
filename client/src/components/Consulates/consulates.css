@@ -4,14 +4,17 @@
    
 /* } */
 .consulates {
-    background-image: url("../../images/");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-image: url("../../images/consulate.jpg");
+    
+    /* background-size: 100% 100%; */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 300px;
+    color: white;
+    padding-top: 100px;
+    
 } 
 
 /* .section { */

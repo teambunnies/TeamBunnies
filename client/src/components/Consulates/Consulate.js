@@ -12,7 +12,7 @@ class Consulate extends Component {
     
     return (
 
-        <section class="section">
+        <section className="section">
                
         <Consulates 
         //onclick method that originates from binding of props to the item Id in ItemImage

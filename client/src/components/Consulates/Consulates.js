@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ConsulateItems from './ConsulateItems';
 import PropTypes from 'prop-types';
+import './style.css';
 
 
 class Consulates extends Component {

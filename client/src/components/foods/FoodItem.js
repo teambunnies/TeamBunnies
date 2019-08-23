@@ -9,7 +9,7 @@ export class FoodItem extends Component {
         return (
             
             <section className={Name}>
-            <h4>{Title}</h4>
+            <h2>{Title}</h2>
             <img src={Img} alt={Name}height="350" width="450"></img>
             <p className="description">{Description}</p>
         </section>

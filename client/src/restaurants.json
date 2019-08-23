@@ -1,81 +1,81 @@
 [
     {
         "Name": "giordanos",
-        "Title": "Giordano’s",
+        "Title": "1. Giordano’s",
         "Img": "/assets/images/giordanos.jpg",
-        "Price": "Average price: Small- $18.65 Medium- $23.30 Large- $27.65",
-        "Description": "With locations all around Chicago, you can easily stop by and try your first deep dish pizza. They offer a small, medium and large size pizza to choose from."
+        "Price": "Average price: Small($18.65) Medium($23.30) Large($27.65)",
+        "Description": "With locations all around Chicago, you can easily stop by and try your first deep dish pizza. They offer a small, medium and large size pizza to choose from. Its craetion began in a small town of Northern Italy near Torino by the Giordano family. The recipe was brought to South Chicago in 1974 and quickly became a city favorite!"
     
     },
     {
         "Name": "devildawgs",
-        "Title": "Devil Dawgs",
+        "Title": "2. Devil Dawgs",
         "Img": "/assets/images/devildawgs.jpg",
         "Price": "Average Price: $5.00 - $6.50",
-        "Description": "Devil Dawgs came to Chicago in 2010 and started out of a 2 car garage. The spot quickly became a favorite and they now have 3 locations with a 4th opening soon."
+        "Description": "Devil Dawgs came to Chicago in 2010 and started out of a 2 car garage. The spot quickly became a favorite and they now have 3 locations with a 4th opening soon. Their first location in Lincoln Park was about 350 sq feet quickly became a neighborhood favorite and late night spot for DePaul college students. "
     },
     {
         "Name": "pierogiheaven",
-        "Title": "Pierogi Heaven",
+        "Title": "3. Pierogi Heaven",
         "Img": "/assets/images/pierogiheaven.jpg",
-        "Price": "Average Price: 6 pieces- $6.99 9 pieces- $9.87 12 pieces- $13.16",
-        "Description": "Pierogi Heaven is located in downtown Chicago with a single location. They serve many Polish dishes and pride themselves on serving the best Pierogi in town."
+        "Price": "Average Price: 6 pieces($6.99) 9 pieces($9.87) 12 pieces($13.16)",
+        "Description": "Pierogi Heaven is located in downtown Chicago with a single location. They serve many Polish dishes and pride themselves on serving the best Pierogi in town. They're known around town for having authentic Polish food. Any true Pierogi lovers in Chicago will tell you this is the best spot for Pierogies."
 
     },
     {
         "Name": "alsbeef",
-        "Title": "Al's Beef",
+        "Title": "4. Al's Beef",
         "Img": "/assets/images/alsbeef.jpg",
-        "Price": "Average Price: Little Beef- $6.15 Regular Beef- $7.35 Big Beef- $9.75 ",
-        "Description": "The Italian Beef Sandwich was created by Al Ferrari in 1938 during The Great Depression when meat was scarce and had to be sliced thinly."
+        "Price": "Average Price: Little Beef($6.15) Regular Beef($7.35) Big Beef($9.75) ",
+        "Description": "The Italian Beef Sandwich was created by Al Ferrari in 1938 during The Great Depression. In order to make the most of what they had, Al would slice the meat very thinly and place it on thick loaves of fresh made Italian bread. The Ferrari family started selling their sandwiches to make ends meet and later opened their first restaurant."
        
     },
     {
         "Name": "elmilagro",
-        "Title": "El Milagro Tortilla",
+        "Title": "5. El Milagro Tortilla",
         "Img": "/assets/images/milagrotortilla.jpg",
         "Price": "Average Price: $3.00 - $5.00",
-        "Description": "El Milagro Tortilla is a single location family-owned Mexican restaurant in Pilsen. They're known around town for their big portions and quality tastes of Latin America."
+        "Description": "El Milagro Tortilla is a single location family-owned Mexican restaurant in Pilsen. They're known around town for their big portions and quality tastes of Latin America. Not only do they serve the best tamales in town, they also have other popular Mexican dishes such as tacos and sopes."
     
     },
     {
         "Name": "aucheval",
-        "Title": "Au Cheval",
+        "Title": "6. Au Cheval",
         "Img": "/assets/images/aucheval.jpg",
-        "Price": "Average Price: Single Cheeseburger- $12.95 Double Cheeseburger- $14.95",
-        "Description": "Au Cheval is a diner-style restaurant with a passion for eggs and a variety of items on their menu. The cheeseburger is their signature dish and to make it even more special, you can add an egg to your burger for $1.00 extra."
+        "Price": "Average Price: Single Cheeseburger($12.95) Double Cheeseburger($14.95)",
+        "Description": "Au Cheval is a diner-style bar and restaurant with a passion for eggs and a variety of items on their menu. The cheeseburger is their signature dish and to make it even more special, you can add an egg to your burger for $1.00 extra.  Guests can indulge in dishes ranging from chopped chicken liver and roasted bone marrow, to traditional sandwiches."
        
     },
     {
         "Name": "brokenenglish",
-        "Title": "Broken English Taco Pub",
+        "Title": "7. Broken English Taco Pub",
         "Img": "/assets/images/brokenenglish.jpg",
         "Price": "Average Price(2 per order): $6.00 - $9.00 ",
-        "Description": "Located in three of Chicago's most vibrant neighborhoods - The Loop, Old Town and Lincoln Park. Broken English combines a unique take on Mexican street style tacos, refreshing beverages, eclectic music, and vivid artwork created by local talent."
+        "Description": "Located in three of Chicago's most vibrant neighborhoods, Broken English combines a unique take on Mexican street style tacos, eclectic music, and vivid artwork created by local talent. “I speak English with my friends, but often find myself mixing in Spanish words because there are some phrases that don’t translate to English. This is what makes the name ‘Broken English’ fun – it is part of our daily slang.”"
        
     },
     {
         "Name": "xoco",
-        "Title": "Xoco",
+        "Title": "8. Xoco",
         "Img": "/assets/images/xoco.jpg",
         "Price": "Average Price: $1.60 each or 3/$4.00",
-        "Description": "Xoco, pronounced “SHO-ko” is the Aztec word for “little sister.” But there’s nothing little about Xoco’s bold Mexican marketplace flavors. Open early and closing late, this café offers contemporary expressions of Mexico’s most beloved food and snacks"
+        "Description": "Xoco, pronounced “SHO-ko” is the Aztec word for “little sister.” But there’s nothing little about Xoco’s bold Mexican marketplace flavors. Open early and closing late, this café offers contemporary expressions of Mexico’s most beloved food and snacks. They serve popular Mexican dishes like Tortas and Caldos with Churros and Hot Chocolate to tame your sweet tooth after. "
     
     },
     {
         "Name": "amorino",
-        "Title": "Amorino",
+        "Title": "9. Amorino",
         "Img": "/assets/images/amorino.jpg",
         "Price": "Average Price: $5.00 - $10.00",
-        "Description": "Amorino originates straight from Italy. Their gelato is made with fresh fruits and never artificial flavors. Each gelato flavor is organic and vegan friendly."
+        "Description": "Amorino originates straight from Italy. Their gelato is made with fresh fruits and never artificial flavors. Each gelato flavor is organic and vegan friendly. Their daily challenge is to propose a gourmet gelato while always satisfying the most exacting palates. "
 
     },
     {
         "Name": "garrettpopcorn",
-        "Title": "Garrett Popcorn",
+        "Title": "10. Garrett Popcorn",
         "Img": "/assets/images/garrettpopcorn.jpg",
         "Price": "Average Price: $5.00 - $10.00",
-        "Description": "Garrett Popcorn started in 1949 and has expanded as they've grown in popularity.  Every batch is handmade throughout the day."
+        "Description": "Garrett Popcorn started in 1949 and has expanded as they've grown in popularity.  Every batch is handmade throughout the day. They offer a large variety of flavors to choose them and you'll often find them having lines extending far out of the building doors. "
         
     }
 ]

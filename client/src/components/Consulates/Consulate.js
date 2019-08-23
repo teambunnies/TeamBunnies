@@ -13,6 +13,7 @@ class Consulate extends Component {
     return (
 
         <section class="section">
+          <h1> Consulates in Chicago </h1>
                
         <Consulates 
         //onclick method that originates from binding of props to the item Id in ItemImage

@@ -38,7 +38,7 @@ class ImageGallery extends React.Component {
       <div>
        
         <div className="section">
-          <h1>Photo gallery</h1> 
+          <h1>Photo Gallery</h1> 
         <PhotoList photos={this.state.photos} />
         </div>
       </div>

@@ -4,15 +4,15 @@ import PropTypes from 'prop-types';
 export class ExperiencesPlace extends Component {
     
     render() {
-        //
+        
         const{Name, Title, Img, Address, Admission, Description} = this.props.experience;
         return (
             
             <section className={Name}>
-            <h4>{Title}</h4>
-            <img src={Img} alt={Name} height="350" width="450"></img>
-            <h5>{Address}</h5>
-            <h5>{Admission}</h5>
+            <h3>{Title}</h3>
+            <img src={Img} alt={Name} height="400" width="500"></img>
+            <h4>{Address}</h4>
+            <h4>{Admission}</h4>
             <p className="description">{Description}</p>
         </section>
    

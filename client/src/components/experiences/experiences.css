@@ -1,0 +1,25 @@
+.millenniumpark, .skydeck, .riverwalk, .magnificentmile, 
+.navypier, .artinstitute, .beach, .adlerplanetarium, 
+.buckinghamfountain, .signatureroom {
+    padding-left: 135px;
+    padding-right: 135px;
+    margin-bottom: 100px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h3, .h3 {
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+.hr, hr {
+    margin-bottom: 25px;
+}
+.btn-outline-danger {
+    margin-bottom: 25px;
+}
+
+
+

@@ -1,6 +1,6 @@
 [{
     "Name": "millenniumpark",
-    "Title": "Millennium Park",
+    "Title": "1. Millennium Park",
     "Img": "/assets/images/millenniumpark.jpg",
     "Address": "201 E Randolph St, Chicago, IL 60602",
     "Admission": "Admission: Free",
@@ -8,73 +8,73 @@
 },
 {
     "Name": "skydeck",
-    "Title": "Sears Tower Skydeck",
+    "Title": "2. Sears Tower Skydeck",
     "Img": "/assets/images/skydeck.jpg",
     "Address": "233 S Wacker Dr, Chicago, IL 60606 on 103rd floor",
     "Admission": "Admission: $17(ages 3-11) and $25(ages 12+)",
-    "Description": "103rd floor of the former Sears Tower with clear observation boxes & views extending to four states."
+    "Description": "Step outside the tallest building in the Western Hemisphere. Offering spectacular views spanning up to four states, a one-stop Chicago experience full of interactive exhibits and The Ledge, a glass balcony at 1,353 feet extending four feet outside the 103rd floor of Sears Tower!"
 },
 {
     "Name": "riverwalk",
-    "Title": "Riverwalk",
+    "Title": "3. Riverwalk",
     "Img": "/assets/images/riverwalk.jpg",
     "Address": "Lake Shore Drive to Lake Street",
     "Admission": "Admission: Free",
-    "Description": "For a unique city experience, head down to the south bank of the Chicago River and explore the pedestrian-friendly Chicago Riverwalk, which stretches from Lake Shore Drive to Lake Street. This self-guided Chicago Riverwalk tour will keep you busy uncovering riverside surprises."
+    "Description": "For a unique city experience, head down to the south bank of the Chicago River and explore the pedestrian-friendly Chicago Riverwalk, which stretches from Lake Shore Drive to Lake Street. This self-guided Chicago Riverwalk tour will keep you busy uncovering riverside surprises. Some of the city's best restaurants and views are located right on the Riverwalk!"
 },
 {
     "Name": "magnificentmile",
-    "Title": "Magnificent Mile",
+    "Title": "4. Magnificent Mile",
     "Img": "/assets/images/magnificentmile.jpg",
     "Address": "Michigan Ave",
     "Admission": "Admission: Free",
-    "Description": "The Magnificent Mile is Chicago’s premier commercial district. The vibrant, bustling area is home to upscale shops, luxe fashion outlets, cool restaurants and posh hotels."
+    "Description": "The Magnificent Mile is packed with things to do and see, including Chicago’s best attractions and more than 50 historic landmarks. The Magnificent Mile is Chicago’s premier commercial district. The vibrant, bustling area is home to upscale shops, luxe fashion outlets, cool restaurants and posh hotels."
 },
 {
     "Name": "navypier",
-    "Title": "Navy Pier",
+    "Title": "5. Navy Pier",
     "Img": "/assets/images/navypier.jpg",
     "Address": "600 E Grand Ave, Chicago, IL 60611",
     "Admission": "Admission: Free",
-    "Description": "Navy Pier is a 3,300-foot-long pier on the Chicago shoreline of Lake Michigan. It is located in the Streeterville neighborhood of the Near North Side community area."
+    "Description": "Originally completed in 1916 as part of Daniel Burnham's plan for Chicago, Navy Pier is an iconic city landmark inspiring discovery and wonder. Since its reopening in 1995, more than 180 million visitors have come to enjoy the Pier's 50 acres. Navy Pier is a 3,300-foot-long pier on the Chicago shoreline of Lake Michigan. It is located in the Streeterville neighborhood of the North Side community area."
 },
 {
     "Name": "artinstitute",
-    "Title": "Art Institute of Chicago",
+    "Title": "6. Art Institute of Chicago",
     "Img": "/assets/images/artinstitute.jpg",
     "Address": "111 S Michigan Ave, Chicago, IL 60603",
     "Admission": "Admission: Children: Free(13 and under) Adults: $25",
-    "Description": "The Art Institute of Chicago, founded in 1879 and located in Chicago's Grant Park, is one of the oldest and largest art museums in the United States. Recognized for its curatorial efforts and popularity among visitors, the museum hosts approximately 1.5 million people annually."
+    "Description": "The Art Institute of Chicago, founded in 1879 and located in Chicago's Grant Park, is one of the oldest and largest art museums in the United States. Recognized for its curatorial efforts and popularity among visitors, the museum hosts approximately 1.5 million people annually. The Art Institute is one of the world’s great art museums, housing a collection that spans centuries and the globe."
 },
 {
     "Name": "beach",
-    "Title": "North Avenue Beach",
+    "Title": "7. North Avenue Beach",
     "Img": "/assets/images/northavenue.jpg",
     "Address": "1600 N Lake Shore Dr, Chicago, IL 60613",
     "Admission": "Admission: Free",
-    "Description": "One of Chicago's most popular beaches with stores, dining, & a beach house with amazing city views."
+    "Description": "One of Chicago's most popular beaches with stores, dining, & a beach house with amazing city views. North Avenue beach is known for its accessible beach walk to the shoreline and is great for running, biking or simply taking a stroll. It's nearby restaurants and shopping centres making it easy to go from one activity to the next."
 },
 {
     "Name": "adlerplanetarium",
-    "Title": "Adler Planetarium",
+    "Title": "8. Adler Planetarium",
     "Img": "/assets/images/adlerplanetarium.jpg",
     "Address": "1300 S Lake Shore Dr, Chicago, IL 60605",
     "Admission": "Admission: Children: $13(ages 3-11) Adults: $19",
-    "Description": "The Adler Planetarium is a public museum dedicated to the study of astronomy and astrophysics. It was founded in 1930 by Chicago business leader Max Adler. It is located on the northeast tip of Northerly Island at the shore of Lake Michigan in Chicago, Illinois."
+    "Description": "The Adler Planetarium is a public museum dedicated to the study of astronomy and astrophysics. It was founded in 1930 by Chicago business leader Max Adler. It is located on the northeast tip of Northerly Island at the shore of Lake Michigan in Chicago, Illinois. The Adler connects people, communities, and institutions to one another through the wonder of space science so we can explore our Universe together and use our collective knowledge and skills."
 },
 {
     "Name": "buckinghamfountain",
-    "Title": "Buckingham Fountain",
+    "Title": "9. Buckingham Fountain",
     "Img": "/assets/images/buckinghamfountain.jpg",
     "Address": "301 S Columbus Dr, Chicago, IL 60605",
     "Admission": "Admission: Free",
-    "Description": "Buckingham Fountain is a Chicago landmark in the center of Grant Park. Dedicated in 1927, it is one of the largest fountains in the world. Built in a rococo wedding cake style and inspired by the Latona Fountain at the Palace of Versailles, it is meant to allegorically represent Lake Michigan. "
+    "Description": "Buckingham Fountain is a Chicago landmark in the center of Grant Park. Dedicated in 1927, it is one of the largest fountains in the world. Built in a rococo wedding cake style and inspired by the Latona Fountain at the Palace of Versailles, it is meant to allegorically represent Lake Michigan. It operates from April to October with light and water shows. "
 },
 {
     "Name": "signatureroom",
-    "Title": "The Signature Room at 95th",
+    "Title": "10. The Signature Room at 95th",
     "Img": "/assets/images/signatureroom.jpg",
     "Address": "875 N Michigan Ave, Chicago, IL 60611",
     "Admission": "Dishes range from $10-$50",
-    "Description": "Upscale spot high atop 875 North Michigan Avenue with the best views of the city, American fare & a separate lounge."
+    "Description": "Upscale dining and a menu of contemporary American cuisine lifted the popularity of the restaurant with Chicagoans and visitors alike. In 1996 The Signature Room was named Restaurant of the Year by the Food and Beverage Equipment Executives. It has been voted one of “America’s Top Tables” by Gourmet Magazine readers consecutively since 1997. Located high atop Michigan Avenue with the best views of the city."
 }]

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Restaurants from "./Restaurants"
 import restaurantdata from "../../restaurants.json"
-
 import './restaurants.css';
 
 
@@ -16,6 +15,8 @@ class Restaurant extends Component {
     return (
 
         <section className="section">
+          <h1>Best Restaurants in Chicago!</h1>
+          <hr />
           
         <Restaurants 
         //onclick method that originates from binding of props to the item Id in ItemImage
